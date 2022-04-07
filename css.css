@@ -1,0 +1,126 @@
+body{box-sizing: border-box;
+border-radius: 10px;
+background-color: hsl(210, 46%, 95%);
+Font-size: 13px;
+font-family: 'Barlow Semi Condensed',
+sans-serif;
+font-weight: 500;}
+#main-content{
+ width: 100%;height: 600px;
+display: grid;grid-template-columns:repeat(auto-fill,minmax(50px,1fr));
+grid-template-rows: repeat(auto-fill,minmax(50px,1fr));
+gap: 20px 20px;
+margin: auto;
+margin-top: 100px;
+
+}
+#main-content section{
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#Kira-Whittle-main{
+    grid-column:14/18 ;
+    grid-row: 1/14;
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(219, 29%, 14%)
+}
+
+#Jeanette-Harmon-main{
+    background-color:hsl(0, 0%, 100%);
+    grid-column: 1/5;
+    grid-row: 6/14;
+    color:hsl(219, 29%, 14%)
+}
+
+#Daniel-Clifford-main {
+    background-color: hsl(263, 55%, 52%);
+    grid-column: 1/10;
+    grid-row: 1/6;
+}
+.image{
+border-radius: 50%;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+
+#name {
+margin-top: -100px;
+color: hsl(0, 0%, 100%);
+margin-left: 100px;
+}
+
+#verif{
+margin-top: -100px;
+color: hsla(0, 0%, 100%, 0.501);
+margin-left: 100px;
+}
+
+#name1 {
+    margin-top: -120px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 100px;
+}
+
+#verif1 {
+    margin-top: -120px;
+    color: hsla(0, 0%, 100%, 0.501);
+    margin-left: 100px;
+}
+
+#name2{
+    margin-top: -100px;
+    color: hsl(219, 29%, 14%);
+    margin-left: 100px;
+}
+
+#verif2 {
+    margin-top: -100px;
+    color: hsla(217, 30%, 14%, 0.511);
+    margin-left: 100px;
+}
+
+#name3 {
+    margin-top: -150px;
+    color: hsl(219, 29%, 14%);
+    margin-left: 90px;
+}
+
+#verif3 {
+    margin-top: -180px;
+    color: hsla(217, 30%, 14%, 0.511);
+    margin-left: 90px;
+}
+
+#jonathan-Walters-main{
+    background-color: hsl(217, 19%, 35%);
+    grid-column: 10/14;
+    grid-row: 1/6;
+}
+
+#Patrick-Abrams-main{
+ background-color:   hsl(219, 29%, 14%);
+ grid-column: 5/14;
+ grid-row: 6/14;
+}
+h3{
+    color:hsl(0, 0%, 100%);
+    margin:-30px 50px 0 30px;
+}
+h5{
+    color:hsla(0, 0%, 100%, 0.695);
+    margin:0 20px 20px 26px;
+}
